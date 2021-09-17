@@ -19,7 +19,7 @@ def integration(df):
             # print(lnk_data)
 
             if success:
-                LUSHA_API_KEY = "7233fabc-cfaf-46e9-bab1-aa35961d031f"
+                LUSHA_API_KEY = "Your Key"
                 print('lnkdata ========>  ', json.loads(lnk_data[2])['company']['company_domain'])
                 company_domain = json.loads(lnk_data[2])['company']['company_domain']
                 print('lnkdata ========>  ', lnk_data)
